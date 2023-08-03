@@ -1,0 +1,84 @@
+body {
+  background-image: linear-gradient(rgb(250, 226, 237),rgb(255, 169, 228), rgb(166, 45, 180));
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", cursive;
+}
+
+nav {
+	border-bottom: 2px solid #e8409f;
+}
+
+h1{
+	color: #e8409f;
+	text-shadow: 1px 1px rgb(255, 255, 255); 
+}
+
+h2{
+	color: #e8409f;
+	text-shadow: 1px 1px rgb(255, 255, 255); 
+}
+
+ol {
+	padding-left: 0;
+}
+
+ul{
+	color: white;
+	font-family: serif;
+	text-shadow: 1px 1px rgb(246, 95, 195); 
+
+}
+
+p1 {
+	font-family:cursive;
+	color: white;
+	font-size: larger;
+	text-shadow: 1px 1px rgb(246, 95, 195); 
+}
+
+h3{
+	color:white;
+	text-shadow: 1px 1px rgb(246, 95, 195); 
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+button{
+	color:rgb(231, 43, 159);
+	background-color: yellow;
+	font-size: medium;
+	
+}
+
+a {
+	color: rgb(231, 43, 159);
+}
+
+a:visited {
+	color: rgb(231, 43, 159);
+}
+
+input {
+	display: block;
+	margin: 15px;
+}
+
+img {
+	max-width: 300px;
+	
+}
+
+form{
+	display:flex;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	justify-content: space-between;
+	text-shadow: 1px 1px rgb(246, 95, 195);
+	white-space: nowrap;
+}
